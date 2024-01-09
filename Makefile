@@ -1,5 +1,5 @@
 TAG?=latest
-NS?=openfaas
+NS?=forge4flow
 
 .PHONY: build-gateway
 build-gateway:

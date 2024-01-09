@@ -1,4 +1,4 @@
-// Copyright (c) Alex Ellis 2017. All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package main
@@ -9,15 +9,15 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/forge4flow/forge4flow-gateway/gateway/handlers"
+	"github.com/forge4flow/forge4flow-gateway/gateway/metrics"
+	"github.com/forge4flow/forge4flow-gateway/gateway/pkg/middleware"
+	"github.com/forge4flow/forge4flow-gateway/gateway/plugin"
+	"github.com/forge4flow/forge4flow-gateway/gateway/scaling"
+	"github.com/forge4flow/forge4flow-gateway/gateway/types"
+	"github.com/forge4flow/forge4flow-gateway/gateway/version"
 	"github.com/gorilla/mux"
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/handlers"
-	"github.com/openfaas/faas/gateway/metrics"
-	"github.com/openfaas/faas/gateway/pkg/middleware"
-	"github.com/openfaas/faas/gateway/plugin"
-	"github.com/openfaas/faas/gateway/scaling"
-	"github.com/openfaas/faas/gateway/types"
-	"github.com/openfaas/faas/gateway/version"
 	natsHandler "github.com/openfaas/nats-queue-worker/handler"
 )
 

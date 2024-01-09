@@ -1,5 +1,4 @@
-// Copyright (c) Alex Ellis 2017
-// Copyright (c) 2018 OpenFaaS Author(s)
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package metrics

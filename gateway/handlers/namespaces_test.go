@@ -1,11 +1,12 @@
-// Copyright (c) Alex Ellis 2017. All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package handlers
 
 import (
-	"github.com/openfaas/faas/gateway/pkg/middleware"
 	"testing"
+
+	"github.com/forge4flow/forge4flow-gateway/gateway/pkg/middleware"
 )
 
 func Test_getNamespace_Default(t *testing.T) {

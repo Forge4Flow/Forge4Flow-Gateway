@@ -1,4 +1,4 @@
-// Copyright (c) Alex Ellis 2017. All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package handlers
@@ -11,12 +11,12 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/forge4flow/forge4flow-gateway/gateway/metrics"
+	"github.com/forge4flow/forge4flow-gateway/gateway/pkg/middleware"
 	"github.com/gorilla/mux"
 	ftypes "github.com/openfaas/faas-provider/types"
-	"github.com/openfaas/faas/gateway/metrics"
-	"github.com/openfaas/faas/gateway/pkg/middleware"
 
-	"github.com/openfaas/faas/gateway/scaling"
+	"github.com/forge4flow/forge4flow-gateway/gateway/scaling"
 )
 
 // MakeQueuedProxy accepts work onto a queue
