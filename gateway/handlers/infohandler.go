@@ -1,4 +1,4 @@
-// Copyright (c) OpenFaaS Author(s). All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package handlers
@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
+	"github.com/forge4flow/forge4flow-gateway/gateway/types"
+	"github.com/forge4flow/forge4flow-gateway/gateway/version"
 	providerTypes "github.com/openfaas/faas-provider/types"
-	"github.com/openfaas/faas/gateway/types"
-	"github.com/openfaas/faas/gateway/version"
 )
 
 // MakeInfoHandler is responsible for display component version information

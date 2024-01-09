@@ -1,4 +1,4 @@
-// Copyright (c) Alex Ellis 2017. All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package plugin
@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"time"
 
+	middleware "github.com/forge4flow/forge4flow-gateway/gateway/pkg/middleware"
+	"github.com/forge4flow/forge4flow-gateway/gateway/scaling"
 	types "github.com/openfaas/faas-provider/types"
-	middleware "github.com/openfaas/faas/gateway/pkg/middleware"
-	"github.com/openfaas/faas/gateway/scaling"
 )
 
 // ExternalServiceQuery proxies service queries to external plugin via HTTP

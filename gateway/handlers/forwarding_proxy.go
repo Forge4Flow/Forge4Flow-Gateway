@@ -1,4 +1,4 @@
-// Copyright (c) OpenFaaS Author(s). All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package handlers
@@ -12,8 +12,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/openfaas/faas/gateway/pkg/middleware"
-	"github.com/openfaas/faas/gateway/types"
+	"github.com/forge4flow/forge4flow-gateway/gateway/pkg/middleware"
+	"github.com/forge4flow/forge4flow-gateway/gateway/types"
 )
 
 // MakeForwardingProxyHandler create a handler which forwards HTTP requests

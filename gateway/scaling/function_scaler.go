@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/openfaas/faas/gateway/types"
+	"github.com/forge4flow/forge4flow-gateway/gateway/types"
 	"golang.org/x/sync/singleflight"
 )
 

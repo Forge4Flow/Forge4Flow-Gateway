@@ -1,4 +1,4 @@
-// Copyright (c) OpenFaaS Author(s). All rights reserved.
+// Copyright (c) Forge4Flow Author(s). All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 package handlers
@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/docker/distribution/uuid"
-	"github.com/openfaas/faas/gateway/version"
+	"github.com/forge4flow/forge4flow-gateway/gateway/version"
 )
 
 // MakeCallIDMiddleware middleware tags a request with a uid
